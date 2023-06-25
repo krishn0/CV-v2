@@ -421,10 +421,7 @@ body{
    
 }
 
-    h2{
-        
-     
-    }
+
     
     .nev{
        
@@ -681,9 +678,10 @@ position: relative;
         top: -10rem;
            display: grid;
          grid-template-columns: 70px 70px 70px;
-         column-gap: 45px;
+         column-gap: 55px;
          text-align: center;
          justify-content: center;
+         row-gap: 25px;
        
        }
        .i1{
