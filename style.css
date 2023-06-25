@@ -45,6 +45,7 @@ box-shadow: 10px 10px 10px 5px rgba(98, 98, 98, 0.458);
       left: 10rem;
       text-align: center;
   }
+ 
 span{
    
     color: rgb(186, 34, 34);
@@ -106,6 +107,8 @@ a:hover{ text-decoration:underline;
   
 position: relative;
 top: 30rem;
+width: 100%;
+height: 500px;
 
 
 
@@ -136,19 +139,22 @@ transition-duration: 2s;
 
     transform: translateX(20%);
 }
-.p1{
+.skill .p1{
  font-size: 20px;
     text-align: center;
 display: flex;
-justify-content: flex-end;
+justify-content: end;
+
 font-family: 'Belanosima', sans-serif;
-position: relative;
-top: 100px;
-left: -10rem;
+position: absolute;
+top: 150px;
+left: 40rem;
+width:38%;
+
 
 }
  
-.p2{
+.skill .p2{
     font-size: 30px;
     
 display: flex;
@@ -165,10 +171,14 @@ top: 100px;
 }
 
 .skill1{
-    position: relative;
-    top: 55rem;
+ position: relative;
+    top:35rem;
+    height: fit-content;
+}
+.skill1{
+   
     font-family: 'Belanosima', sans-serif;
-    left: 10rem;
+ 
     text-align: start;
 }
 .skill1 .ro{
@@ -176,7 +186,7 @@ top: 100px;
     display: flex;
     justify-self: end;
     position:absolute;
-    left:48%;
+    left:48rem;
     transition-duration: 2s;
     animation:rotate1 25s infinite;
 
@@ -184,17 +194,18 @@ top: 100px;
     
 }
 .skill1 .ss{
-  display: flex;
-  justify-items:end;
+ 
 position:absolute;
   width: 400px;
-left:48%;
+left:48rem;
 } 
 
 .skill1 h1{
 
 position: relative;
-left: 8rem;
+width: 30%;
+text-align: end;
+
 
 
 
@@ -225,12 +236,12 @@ width: 50px;
 }
 .grid-container{
     margin-top: 3rem;
- 
+ width: 50%;
     display: grid;
   grid-template-columns: 70px 70px 70px;
   column-gap: 45px;
   text-align: center;
-  
+  justify-content: center;
 
 }
 .i1{
@@ -241,30 +252,42 @@ width: 50px;
 .sev{
 
     position: relative;
-    top: 70rem;
+    
     font-family: 'Belanosima', sans-serif;
-    right: 14rem;
+    top: 42rem;
     height: 553px;
+    width: 100%;
     text-align: end;
+}
+.sev  h1{
+
+    width: 20%;
+position: absolute;
+left: 50rem;
+margin-top:40px ;
 }
 .g{
 
 
+display: flex;
+justify-content: start;
+    width: 500px;
+    height: 500px;
+    position: absolute; 
+  bottom: 5rem;
 
-    width: 800px;
-    position: relative; align-items: start; 
-left: 5rem;
-top: -15rem;
 opacity: 92%;
 animation: coin 5s infinite;
 }
 .g2{
-    position: relative;
+    display: flex;
+justify-content: start;
+    position:absolute;
     width: 400px; 
     height: 400px;
-    align-items: start;
-     left: -30rem;
-     top: -20rem;
+   
+    left: 5rem;
+    bottom: 5rem;
 }
 @keyframes coin {
     0% {
@@ -280,39 +303,46 @@ transform: rotate(0deg);
 
 }
 .grid-container1 img{
-position: relative;
-top: -45rem;
-width: 550px;
-left: 13rem;
+
+    display: flex;
+   left: 45rem;
+    position: absolute;
+    bottom: 10rem;
+width:500px;
+
 border-radius: 20px;
 box-shadow: 0px 10px 10px 10px rgba(35, 36, 37, 0.331);
 }
 
 .sug{
 position: relative;
-    top: 4rem;
+ width: 100%;
+ height: 400px;
+top:43rem
 }
 .sug img{
 
-width: 400px;
-position: relative;
-top: 72rem;
-left: 40rem;
+width:400px;
+
+position: absolute;
+left: 45rem;
+bottom: 3rem;
+
 
 }
 .sug h1{
     position: relative;
-    top: 40rem;
-    left: 15rem;
-    font-size: 20x;
+   
+    margin-left:7rem ;
+    font-size: 20px;
     font-family: 'Belanosima', sans-serif;
     text-transform: uppercase;
 }
 
 .sug2{
 position: relative;
-top: 45rem;
-left: 12rem;
+left: 5rem;
+
 width:300px;
 height: 300px;
 
@@ -351,7 +381,7 @@ text-transform: uppercase;
 
 .final{  font-family: 'Belanosima', sans-serif;
     position: relative;
-    top:63rem;
+   top: 43rem;
     width: 100%;
     height: 300px;
     text-align: center;  
